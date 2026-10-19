@@ -1,0 +1,23 @@
+/* Tối ưu cuộn mượt cho menu điều hướng */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 70px;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Tinh chỉnh Hover cho thẻ Navbar */
+.navbar-nav .nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Thẻ Card hiệu ứng Hover */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
